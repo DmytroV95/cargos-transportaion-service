@@ -1,0 +1,47 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-vehicle-table
+      author: Dmytro Varukha
+      changes:
+        - createTable:
+            tableName: vehicle
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: type
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: number
+                  type: varchar(255)
+                  constraints:
+                    unique: true
+                    nullable: false
+              - column:
+                  name: route_from
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: route_to
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+
+  - changeSet:
+      id: create-vehicle-type-index
+      author: Dmytro Varukha
+      changes:
+        - createIndex:
+            tableName: vehicle
+            indexName: idx_vehicle_type
+            columns:
+              - column:
+                  name: type

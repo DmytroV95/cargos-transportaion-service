@@ -1,0 +1,1201 @@
+[ {
+  "id" : null,
+  "vehicle" : {
+    "id" : 1,
+    "type" : "CAR",
+    "vehicleNumber" : "ABC123",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 1",
+  "weight" : 93.08,
+  "status" : "LOST"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 2,
+    "type" : "TRUCK",
+    "vehicleNumber" : "DEF456",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 2",
+  "weight" : 26.54,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 3,
+    "type" : "TRAIN",
+    "vehicleNumber" : "GHI789",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 3",
+  "weight" : 6.01,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 4,
+    "type" : "PLANE",
+    "vehicleNumber" : "JKL012",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 4",
+  "weight" : 3.8,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 5,
+    "type" : "SHIP",
+    "vehicleNumber" : "MNO345",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 5",
+  "weight" : 85.04,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 6,
+    "type" : "HELICOPTER",
+    "vehicleNumber" : "PQR678",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 6",
+  "weight" : 25.43,
+  "status" : "LOST"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 7,
+    "type" : "DRONE",
+    "vehicleNumber" : "STU901",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 7",
+  "weight" : 94.77,
+  "status" : "LOST"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 8,
+    "type" : "CAR",
+    "vehicleNumber" : "VWX234",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 8",
+  "weight" : 64.93,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 9,
+    "type" : "TRUCK",
+    "vehicleNumber" : "YZA567",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 9",
+  "weight" : 47.59,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 10,
+    "type" : "TRAIN",
+    "vehicleNumber" : "BCD890",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 10",
+  "weight" : 19.12,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 1,
+    "type" : "CAR",
+    "vehicleNumber" : "ABC123",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 11",
+  "weight" : 23.21,
+  "status" : "RETURNED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 2,
+    "type" : "TRUCK",
+    "vehicleNumber" : "DEF456",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 12",
+  "weight" : 34.76,
+  "status" : "LOST"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 3,
+    "type" : "TRAIN",
+    "vehicleNumber" : "GHI789",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 13",
+  "weight" : 26.68,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 4,
+    "type" : "PLANE",
+    "vehicleNumber" : "JKL012",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 14",
+  "weight" : 59.23,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 5,
+    "type" : "SHIP",
+    "vehicleNumber" : "MNO345",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 15",
+  "weight" : 44.42,
+  "status" : "RETURNED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 6,
+    "type" : "HELICOPTER",
+    "vehicleNumber" : "PQR678",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 16",
+  "weight" : 58.25,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 7,
+    "type" : "DRONE",
+    "vehicleNumber" : "STU901",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 17",
+  "weight" : 43.94,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 8,
+    "type" : "CAR",
+    "vehicleNumber" : "VWX234",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 18",
+  "weight" : 80.84,
+  "status" : "LOST"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 9,
+    "type" : "TRUCK",
+    "vehicleNumber" : "YZA567",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 19",
+  "weight" : 76.96,
+  "status" : "RETURNED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 10,
+    "type" : "TRAIN",
+    "vehicleNumber" : "BCD890",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 20",
+  "weight" : 67.78,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 1,
+    "type" : "CAR",
+    "vehicleNumber" : "ABC123",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 21",
+  "weight" : 87.84,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 2,
+    "type" : "TRUCK",
+    "vehicleNumber" : "DEF456",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 22",
+  "weight" : 93.44,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 3,
+    "type" : "TRAIN",
+    "vehicleNumber" : "GHI789",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 23",
+  "weight" : 0.01,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 4,
+    "type" : "PLANE",
+    "vehicleNumber" : "JKL012",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 24",
+  "weight" : 3.05,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 5,
+    "type" : "SHIP",
+    "vehicleNumber" : "MNO345",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 25",
+  "weight" : 51.12,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 6,
+    "type" : "HELICOPTER",
+    "vehicleNumber" : "PQR678",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 26",
+  "weight" : 57.27,
+  "status" : "LOST"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 7,
+    "type" : "DRONE",
+    "vehicleNumber" : "STU901",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 27",
+  "weight" : 74.69,
+  "status" : "RETURNED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 8,
+    "type" : "CAR",
+    "vehicleNumber" : "VWX234",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 28",
+  "weight" : 24.5,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 9,
+    "type" : "TRUCK",
+    "vehicleNumber" : "YZA567",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 29",
+  "weight" : 80.65,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 10,
+    "type" : "TRAIN",
+    "vehicleNumber" : "BCD890",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 30",
+  "weight" : 67.42,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 1,
+    "type" : "CAR",
+    "vehicleNumber" : "ABC123",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 31",
+  "weight" : 70.07,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 2,
+    "type" : "TRUCK",
+    "vehicleNumber" : "DEF456",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 32",
+  "weight" : 54.88,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 3,
+    "type" : "TRAIN",
+    "vehicleNumber" : "GHI789",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 33",
+  "weight" : 30.5,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 4,
+    "type" : "PLANE",
+    "vehicleNumber" : "JKL012",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 34",
+  "weight" : 92.86,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 5,
+    "type" : "SHIP",
+    "vehicleNumber" : "MNO345",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 35",
+  "weight" : 97.38,
+  "status" : "LOST"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 6,
+    "type" : "HELICOPTER",
+    "vehicleNumber" : "PQR678",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 36",
+  "weight" : 8.83,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 7,
+    "type" : "DRONE",
+    "vehicleNumber" : "STU901",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 37",
+  "weight" : 34.41,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 8,
+    "type" : "CAR",
+    "vehicleNumber" : "VWX234",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 38",
+  "weight" : 42.79,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 9,
+    "type" : "TRUCK",
+    "vehicleNumber" : "YZA567",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 39",
+  "weight" : 81.0,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 10,
+    "type" : "TRAIN",
+    "vehicleNumber" : "BCD890",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 40",
+  "weight" : 95.27,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 1,
+    "type" : "CAR",
+    "vehicleNumber" : "ABC123",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 41",
+  "weight" : 38.63,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 2,
+    "type" : "TRUCK",
+    "vehicleNumber" : "DEF456",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 42",
+  "weight" : 57.48,
+  "status" : "LOST"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 3,
+    "type" : "TRAIN",
+    "vehicleNumber" : "GHI789",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 43",
+  "weight" : 19.57,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 4,
+    "type" : "PLANE",
+    "vehicleNumber" : "JKL012",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 44",
+  "weight" : 2.29,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 5,
+    "type" : "SHIP",
+    "vehicleNumber" : "MNO345",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 45",
+  "weight" : 61.04,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 6,
+    "type" : "HELICOPTER",
+    "vehicleNumber" : "PQR678",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 46",
+  "weight" : 45.86,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 7,
+    "type" : "DRONE",
+    "vehicleNumber" : "STU901",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 47",
+  "weight" : 16.01,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 8,
+    "type" : "CAR",
+    "vehicleNumber" : "VWX234",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 48",
+  "weight" : 99.28,
+  "status" : "LOST"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 9,
+    "type" : "TRUCK",
+    "vehicleNumber" : "YZA567",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 49",
+  "weight" : 67.8,
+  "status" : "RETURNED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 10,
+    "type" : "TRAIN",
+    "vehicleNumber" : "BCD890",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 50",
+  "weight" : 17.21,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 1,
+    "type" : "CAR",
+    "vehicleNumber" : "ABC123",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 51",
+  "weight" : 79.7,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 2,
+    "type" : "TRUCK",
+    "vehicleNumber" : "DEF456",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 52",
+  "weight" : 16.18,
+  "status" : "RETURNED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 3,
+    "type" : "TRAIN",
+    "vehicleNumber" : "GHI789",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 53",
+  "weight" : 83.31,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 4,
+    "type" : "PLANE",
+    "vehicleNumber" : "JKL012",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 54",
+  "weight" : 79.13,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 5,
+    "type" : "SHIP",
+    "vehicleNumber" : "MNO345",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 55",
+  "weight" : 29.49,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 6,
+    "type" : "HELICOPTER",
+    "vehicleNumber" : "PQR678",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 56",
+  "weight" : 84.57,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 7,
+    "type" : "DRONE",
+    "vehicleNumber" : "STU901",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 57",
+  "weight" : 74.57,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 8,
+    "type" : "CAR",
+    "vehicleNumber" : "VWX234",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 58",
+  "weight" : 99.15,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 9,
+    "type" : "TRUCK",
+    "vehicleNumber" : "YZA567",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 59",
+  "weight" : 50.97,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 10,
+    "type" : "TRAIN",
+    "vehicleNumber" : "BCD890",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 60",
+  "weight" : 50.26,
+  "status" : "LOST"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 1,
+    "type" : "CAR",
+    "vehicleNumber" : "ABC123",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 61",
+  "weight" : 76.09,
+  "status" : "LOST"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 2,
+    "type" : "TRUCK",
+    "vehicleNumber" : "DEF456",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 62",
+  "weight" : 52.05,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 3,
+    "type" : "TRAIN",
+    "vehicleNumber" : "GHI789",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 63",
+  "weight" : 86.65,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 4,
+    "type" : "PLANE",
+    "vehicleNumber" : "JKL012",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 64",
+  "weight" : 92.29,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 5,
+    "type" : "SHIP",
+    "vehicleNumber" : "MNO345",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 65",
+  "weight" : 46.11,
+  "status" : "RETURNED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 6,
+    "type" : "HELICOPTER",
+    "vehicleNumber" : "PQR678",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 66",
+  "weight" : 0.47,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 7,
+    "type" : "DRONE",
+    "vehicleNumber" : "STU901",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 67",
+  "weight" : 62.41,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 8,
+    "type" : "CAR",
+    "vehicleNumber" : "VWX234",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 68",
+  "weight" : 8.08,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 9,
+    "type" : "TRUCK",
+    "vehicleNumber" : "YZA567",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 69",
+  "weight" : 70.41,
+  "status" : "RETURNED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 10,
+    "type" : "TRAIN",
+    "vehicleNumber" : "BCD890",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 70",
+  "weight" : 80.78,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 1,
+    "type" : "CAR",
+    "vehicleNumber" : "ABC123",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 71",
+  "weight" : 78.75,
+  "status" : "LOST"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 2,
+    "type" : "TRUCK",
+    "vehicleNumber" : "DEF456",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 72",
+  "weight" : 49.41,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 3,
+    "type" : "TRAIN",
+    "vehicleNumber" : "GHI789",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 73",
+  "weight" : 54.51,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 4,
+    "type" : "PLANE",
+    "vehicleNumber" : "JKL012",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 74",
+  "weight" : 91.58,
+  "status" : "RETURNED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 5,
+    "type" : "SHIP",
+    "vehicleNumber" : "MNO345",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 75",
+  "weight" : 20.54,
+  "status" : "LOST"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 6,
+    "type" : "HELICOPTER",
+    "vehicleNumber" : "PQR678",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 76",
+  "weight" : 19.05,
+  "status" : "RETURNED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 7,
+    "type" : "DRONE",
+    "vehicleNumber" : "STU901",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 77",
+  "weight" : 70.42,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 8,
+    "type" : "CAR",
+    "vehicleNumber" : "VWX234",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 78",
+  "weight" : 7.22,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 9,
+    "type" : "TRUCK",
+    "vehicleNumber" : "YZA567",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 79",
+  "weight" : 63.51,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 10,
+    "type" : "TRAIN",
+    "vehicleNumber" : "BCD890",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 80",
+  "weight" : 62.85,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 1,
+    "type" : "CAR",
+    "vehicleNumber" : "ABC123",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 81",
+  "weight" : 48.91,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 2,
+    "type" : "TRUCK",
+    "vehicleNumber" : "DEF456",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 82",
+  "weight" : 63.36,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 3,
+    "type" : "TRAIN",
+    "vehicleNumber" : "GHI789",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 83",
+  "weight" : 81.24,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 4,
+    "type" : "PLANE",
+    "vehicleNumber" : "JKL012",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 84",
+  "weight" : 17.01,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 5,
+    "type" : "SHIP",
+    "vehicleNumber" : "MNO345",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 85",
+  "weight" : 33.27,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 6,
+    "type" : "HELICOPTER",
+    "vehicleNumber" : "PQR678",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 86",
+  "weight" : 87.09,
+  "status" : "RETURNED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 7,
+    "type" : "DRONE",
+    "vehicleNumber" : "STU901",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 87",
+  "weight" : 81.04,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 8,
+    "type" : "CAR",
+    "vehicleNumber" : "VWX234",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 88",
+  "weight" : 95.2,
+  "status" : "IN_TRANSIT"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 9,
+    "type" : "TRUCK",
+    "vehicleNumber" : "YZA567",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 89",
+  "weight" : 35.62,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 10,
+    "type" : "TRAIN",
+    "vehicleNumber" : "BCD890",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 90",
+  "weight" : 68.65,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 1,
+    "type" : "CAR",
+    "vehicleNumber" : "ABC123",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 91",
+  "weight" : 22.16,
+  "status" : "RETURNED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 2,
+    "type" : "TRUCK",
+    "vehicleNumber" : "DEF456",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 92",
+  "weight" : 25.56,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 3,
+    "type" : "TRAIN",
+    "vehicleNumber" : "GHI789",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 93",
+  "weight" : 61.84,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 4,
+    "type" : "PLANE",
+    "vehicleNumber" : "JKL012",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 94",
+  "weight" : 97.21,
+  "status" : "OUT_FOR_DELIVERY"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 5,
+    "type" : "SHIP",
+    "vehicleNumber" : "MNO345",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 95",
+  "weight" : 95.14,
+  "status" : "RETURNED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 6,
+    "type" : "HELICOPTER",
+    "vehicleNumber" : "PQR678",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 96",
+  "weight" : 72.02,
+  "status" : "RETURNED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 7,
+    "type" : "DRONE",
+    "vehicleNumber" : "STU901",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 97",
+  "weight" : 96.0,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 8,
+    "type" : "CAR",
+    "vehicleNumber" : "VWX234",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 98",
+  "weight" : 7.81,
+  "status" : "DELIVERED"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 9,
+    "type" : "TRUCK",
+    "vehicleNumber" : "YZA567",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 99",
+  "weight" : 65.4,
+  "status" : "PENDING"
+}, {
+  "id" : null,
+  "vehicle" : {
+    "id" : 10,
+    "type" : "TRAIN",
+    "vehicleNumber" : "BCD890",
+    "routeFrom" : "Origin",
+    "routeTo" : "Destination"
+  },
+  "description" : "Cargo 100",
+  "weight" : 99.96,
+  "status" : "IN_TRANSIT"
+} ]

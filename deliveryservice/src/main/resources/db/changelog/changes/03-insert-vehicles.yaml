@@ -1,0 +1,18 @@
+databaseChangeLog:
+  - changeSet:
+      id: insert-vehicles
+      author: Dmytro Varukha
+      changes:
+        - sql:
+            sql: |
+              INSERT INTO vehicle (type, number, route_from, route_to) VALUES
+              ('CAR', 'ABC123', 'Origin', 'Destination'),
+              ('TRUCK', 'DEF456', 'Origin', 'Destination'),
+              ('TRAIN', 'GHI789', 'Origin', 'Destination'),
+              ('PLANE', 'JKL012', 'Origin', 'Destination'),
+              ('SHIP', 'MNO345', 'Origin', 'Destination'),
+              ('HELICOPTER', 'PQR678', 'Origin', 'Destination'),
+              ('DRONE', 'STU901', 'Origin', 'Destination'),
+              ('CAR', 'VWX234', 'Origin', 'Destination'),
+              ('TRUCK', 'YZA567', 'Origin', 'Destination'),
+              ('TRAIN', 'BCD890', 'Origin', 'Destination');

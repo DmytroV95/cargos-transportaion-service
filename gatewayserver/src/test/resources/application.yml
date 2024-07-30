@@ -1,0 +1,85 @@
+server:
+  port: 8072
+  servlet:
+    context-path: /api
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
+
+spring:
+  application:
+    name: gatewayserver
+  cloud:
+    config:
+      enabled: false
+      import-check:
+        enabled: false
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+  #      routes:
+  #        - id: user-service
+  #          uri: lb://USER-SERVICE
+  #          predicates:
+  #            - Path=/user-service/**
+  ##          filters:
+  ##            - TokenRelay
+  #
+  #        - id: delivery-service
+  #          uri: lb://DELIVERY_SERVICE
+  #          predicates:
+  #            - Path=/delivery-service/**
+  #
+  #        - id: email-service
+  #          uri: lb://EMAIL-SERVICE
+  #          predicates:
+  #            - Path=/email-service/**
+  #          filters:
+  #            - TokenRelay
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:7080/realms/delivery-service/protocol/openid-connect/certs
+#          issuer-uri: http://localhost:7080/realms/delivery-service
+
+
+jwt:
+  secret: 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
+  expiration: 300000
+
+#keycloak:
+#  realm: delivery-service
+#  auth-server-url: http://localhost:7080
+#  resource: delivery-service-app
+#  credentials:
+#    secret: BtjRBFrOVXsRNE1PyEN2QBaPEp46brIR
+#  bearer-only: true
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    gateway:
+      enabled: true
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: gatewayserver
+    description: Delivery service Gateway Server Application
+    version: 1.0.0

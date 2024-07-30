@@ -1,0 +1,81 @@
+server:
+  port: 8092
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: user-service
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:7080/realms/delivery-service
+#      client:
+#        registration:
+#          keycloak:
+#            client-id: delivery-service-app
+#            client-secret: BtjRBFrOVXsRNE1PyEN2QBaPEp46brIR
+#            scope: openid, profile
+#            authorization-grant-type: authorization_code
+#        provider:
+#          keycloak:
+#            issuer-uri: http://localhost:7080/realms/delivery-service
+#            user-name-attribute: preferred_username
+
+
+keycloak:
+  realm: delivery-service
+  auth-server-url: http://localhost:7080
+  resource: delivery-service-app
+  credentials:
+    secret: BtjRBFrOVXsRNE1PyEN2QBaPEp46brIR
+
+
+# Eureka Configuration
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
+
+
+# Actuator Configuration
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  health:
+    readiness-state:
+      enabled: true
+    liveness-state:
+      enabled: true
+  endpoint:
+    shutdown:
+      enabled: true
+    health:
+      probes:
+        enabled: true
+  info:
+    env:
+      enabled: true
+
+# Keycloak configuration
+#keycloak:
+#  realm: delivery-service
+#  domain: http://localhost:8070
+#  clientId: delivery-service-app
+#  clientSecret: 61xIfxWd1IfxbqDdtvYFygRizVQ5OdYX
+#  urls:
+#    auth: https://${keycloak.domain}
+
+
+info:
+  app:
+    name: user-service
+    description: Users Service to manage users
+    version: 1.0.0

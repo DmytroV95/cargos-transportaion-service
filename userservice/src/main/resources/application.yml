@@ -1,0 +1,58 @@
+server:
+  port: 8092
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: user-service
+
+#keycloak:
+#  realm: delivery-service
+#  auth-server-url: http://localhost:7080
+#  resource: delivery-service-app
+#  credentials:
+#    secret: BtjRBFrOVXsRNE1PyEN2QBaPEp46brIR
+
+jwt:
+  secret: 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
+  expiration: 300000
+
+
+# Eureka Configuration
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
+
+
+# Actuator Configuration
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  health:
+    readiness-state:
+      enabled: true
+    liveness-state:
+      enabled: true
+  endpoint:
+    shutdown:
+      enabled: true
+    health:
+      probes:
+        enabled: true
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: user-service
+    description: Users Service to manage users
+    version: 1.0.0

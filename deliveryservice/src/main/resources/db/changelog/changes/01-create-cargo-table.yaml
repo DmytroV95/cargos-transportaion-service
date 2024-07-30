@@ -1,0 +1,47 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-cargo-table
+      author: Dmytro Varukha
+      changes:
+        - createTable:
+            tableName: cargo
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: vehicle_id
+                  type: bigint
+                  constraints:
+                    foreignKeyName: fk_cargo_vehicle_id
+                    nullable: false
+              - column:
+                  name: description
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: weight
+                  type: double
+                  constraints:
+                    nullable: false
+              - column:
+                  name: status
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+
+  - changeSet:
+      id: create-cargo-status-index
+      author: Dmytro Varukha
+      changes:
+        - createIndex:
+            tableName: cargo
+            indexName: idx_cargo_status
+            columns:
+              - column:
+                  name: status

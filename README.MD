@@ -11,8 +11,27 @@ make the project even better.
 
 #### Thank you for your understanding and support!
 
+## Content
 
+1. [Introduction](#introduction)
+2. [Delivery Service](#delivery-service)
+   - [Introduction](#introduction-1)
+   - [Vehicle Controller Endpoints](#vehicle-controller-endpoints)
+   - [Cargo Controller Endpoints](#cargo-controller-endpoints)
+3. [Email Notification](#email-notification)
+   - [Introduction](#introduction-2)
+   - [Email Controller Endpoints](#email-controller-endpoints)
+4. [Cargo Movement](#cargo-movement)
+   - [Introduction](#introduction-3)
+   - [Endpoints Description](#endpoints-description)
+5. [Running the Application](#running-the-application)
+   - [To Run Using Docker](#to-run-using-docker)
+   - [Setup SMTP](#setup-smtp)
+   - [How to Run App](#how-to-run-app)
+6. [Testing with Postman](#testing-with-postman)
+   - [Importing Sample Data as JSON in Postman](#importing-sample-data-as-json-in-postman)
 
+***The Postman collection will be added soon.***
 
 ## Introduction
 
@@ -25,17 +44,9 @@ them. You can access all microservices using the ***API Gateway server*** to mak
 To check the running microservices,
 visit the following URL: http://localhost:8072/actuator/gateway/routes.
 
-# Content
-
-1. [Introduction](#introduction)
-2. [Endpoints Description](#endpoints-description)
-3. [Running the Application](#running-the-application)
-4. [Testing with Postman](#testing-with-postman)
-
-
 # Microservices Description
 
-## 1. Delivery Service
+## Delivery Service
 
 ### Introduction
 
@@ -67,9 +78,9 @@ provides the tools you need to track and coordinate your cargo and vehicle opera
 | GET    | `/api/cargos/file/upload` | Upload JSON file containing cargo data. <br/> You will find the JSON result of the operation in the project's root directory named 'data_processing_response'." <br/> Please copy the sample dataset from 'src/main/resources/json_data_set' to your local machine for testing the upload endpoint."                |                           |                                                                                                                                                                                                                                                                                                     |
 | GET    | `/api/cargos/_report`     | Generate an Excel report for all cargo items. <br/> To test the '_report' endpoint, you can copy the URL from the Postman collection dataset (dependent on the port), which you can find in the root of the application, and enter this URL into a browser. Please note that this endpoint may not work in Postman. |
 
+- [Back to application content](#content)
 
-
-# 2. Email Notification
+# Email Notification
 
 ### Introduction
 
@@ -115,8 +126,10 @@ SPRING_MAIL_PASSWORD=email-password (application password)
 
 TO_EMAIL=to-email@gmail.com (email where you want send message)
 ```
+- [Back to application content](#content)
 
-# 3. Cargo Movement
+
+# Cargo Movement
 
 ### Introduction
 This Node.js service provides a REST API for managing ***CargoMovement***,
@@ -210,15 +223,12 @@ Accepts an array of ***Cargo*** IDs and returns the total count of
     "1022": 5
 }
 ```
-
+- [Back to application content](#content)
 
 
 ## Running the Application
 
 In this section, you will find out how the process of running application.
-
-- [Back to application content](#content)
-
 
 ####
 
@@ -234,6 +244,8 @@ mvn clean package
 ***Environment Variables:*** Create the **.env** file in the project root directory with the necessary environment variables. These variables should include your database connection details and any secret keys required by the application.
 
 Use the `.env.sample` file from the application root directory as a sample data to connect with the Docker container using your custom properties.
+
+- [Back to application content](#content)
 
 ## Setup SMTP
 
@@ -258,6 +270,8 @@ SPRING_MAIL_PASSWORD=password (application password)
 
 TO_EMAIL=to-email@gmail.com (email where you want send message)
 ```
+- [Back to application content](#content)
+
 ####
 
 # How to run App
@@ -303,11 +317,13 @@ Kafka, or the gateway server needs time to retrieve information about running mi
 instances from the Eureka server.
 ####
 
+- [Back to application content](#content)
+
 ## Access Using API Gateway Server
 
 After the containers are up and running, you can access your microservices application at the specified endpoints.
 
-### Using Postman to get access to endpoints
+### Testing with Postman
 
 If the application is running, use Postman to access the microservices with the following ports, or just import
 the Postman collection from the application root directory:
